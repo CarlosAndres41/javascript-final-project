@@ -1,6 +1,6 @@
 function App() {
     return (
-        <div className='text-3xl font-bold underline'>
+        <div className='bg-[url("https://digitalassets.tesla.com/tesla-contents/image/upload/h_4096,w_1927,c_fit,f_auto,q_auto:best/Homepage-Model-3-LHD-Mobile")] lg:bg-[url("https://digitalassets.tesla.com/tesla-contents/image/upload/h_2560,w_4096,c_fit,f_auto,q_auto:best/Homepage-Model-3-Desktop-LHD")] h-screen bg-cover bg-center'>
             <h1>Tesla Clone</h1>
         </div>
     );
