@@ -12,19 +12,37 @@ const Navbar = () => {
             </div>
             <div>
                 <ul>
-                    <li>Model S</li>
-                    <li>Model 3</li>
-                    <li>Model X</li>
-                    <li>Model Y</li>
-                    <li> Solar Roof</li>
-                    <li>Solar Panels</li>
+                    <li className='py-1 px-3 hover:rounded hover:bg-black/5'>
+                        Model S
+                    </li>
+                    <li className='py-1 px-3 hover:rounded hover:bg-black/5'>
+                        Model 3
+                    </li>
+                    <li className='py-1 px-3 hover:rounded hover:bg-black/5'>
+                        Model X
+                    </li>
+                    <li className='py-1 px-3 hover:rounded hover:bg-black/5'>
+                        Model Y
+                    </li>
+                    <li className='py-1 px-3 hover:rounded hover:bg-black/5'>
+                        Solar Roof
+                    </li>
+                    <li className='py-1 px-3 hover:rounded hover:bg-black/5'>
+                        Solar Panels
+                    </li>
                 </ul>
             </div>
             <div>
                 <ul>
-                    <li>Shop</li>
-                    <li>Account</li>
-                    <li>Menu</li>
+                    <li className='py-1 px-3 hover:rounded hover:bg-black/5'>
+                        Shop
+                    </li>
+                    <li className='py-1 px-3 hover:rounded hover:bg-black/5'>
+                        Account
+                    </li>
+                    <li className='py-1 px-3 hover:rounded hover:bg-black/5'>
+                        Menu
+                    </li>
                 </ul>
             </div>
         </div>
