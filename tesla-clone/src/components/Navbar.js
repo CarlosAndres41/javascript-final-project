@@ -10,7 +10,7 @@ const Navbar = () => {
                     className='h-3'
                 ></img>
             </div>
-            <div>
+            <div className='hidden lg:inline'>
                 <ul className='flex justify-center hover:cursor-pointer'>
                     <li className='py-1 px-3 hover:rounded hover:bg-black/5'>
                         Model S
@@ -32,7 +32,7 @@ const Navbar = () => {
                     </li>
                 </ul>
             </div>
-            <div>
+            <div className='hidden lg:inline'>
                 <ul className='flex justify-center hover:cursor-pointer'>
                     <li className='py-1 px-3 hover:rounded hover:bg-black/5'>
                         Shop
