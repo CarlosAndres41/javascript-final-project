@@ -22,8 +22,8 @@ const Model = () => {
                     Existing Inventory
                 </button>
             </div>
-            <div>
-                <FiChevronDown />
+            <div className='flex justify-center animate-bounce absolute inset-x-0 bottom-[3%]'>
+                <FiChevronDown size={24} />
             </div>
         </div>
     );
