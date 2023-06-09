@@ -45,6 +45,9 @@ const Navbar = () => {
                     </li>
                 </ul>
             </div>
+            <div className='lg:hidden'>
+                <button>Menu</button>
+            </div>
         </div>
     );
 };
