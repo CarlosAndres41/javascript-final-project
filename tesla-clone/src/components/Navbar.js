@@ -54,6 +54,7 @@ const Navbar = () => {
                     Menu
                 </button>
             </div>
+            <div className='bg-white absolute top-0 right-0 w-80 h-full z-10'></div>
         </div>
     );
 };
