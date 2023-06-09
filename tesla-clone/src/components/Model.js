@@ -17,7 +17,10 @@ const Model = () => {
                 <button className='bg-[#393c41] rounded-md w-96 lg:w-64 lg:mx-4 h-10 mt-2 text-white'>
                     Custom Order
                 </button>
-                <button> Existing Inventory</button>
+                <button className='bg-[#f4f4f4] rounded-md w-96 lg:w-64 lg:mx-4 h-10 mt-2'>
+                    {' '}
+                    Existing Inventory
+                </button>
             </div>
             <div>
                 <FiChevronDown />
