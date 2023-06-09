@@ -8,7 +8,7 @@ const Model = () => {
                 <h1 className='text-4xl font-bold'>Model 3</h1>
                 <p className='p-2 text-sm'>
                     Order Online for{' '}
-                    <a href='https://www.tesla.com/inventory/new/m3'>
+                    <a href='https://www.tesla.com/support/taking-delivery'>
                         <span className='underline underline-offset-4'>
                             Touchless Delivery
                         </span>
