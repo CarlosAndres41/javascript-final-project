@@ -39,10 +39,10 @@ const Navbar = () => {
             <div className='hidden lg:inline'>
                 <ul className='flex justify-center hover:cursor-pointer'>
                     <li className='py-1 px-3 hover:rounded hover:bg-black/5'>
-                        Shop
+                        <a href='https://www.tesla.com/shop'>Shop</a>
                     </li>
                     <li className='py-1 px-3 hover:rounded hover:bg-black/5'>
-                        Account
+                        <a href='https://www.tesla.com/account'>Account</a>
                     </li>
                     <li className='py-1 px-3 hover:rounded hover:bg-black/5'>
                         Menu
