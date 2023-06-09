@@ -13,7 +13,7 @@ const Model = () => {
                     </span>
                 </p>
             </div>
-            <div className='flex flex-col items-center justify-center text-sm'>
+            <div className='flex flex-col items-center justify-center text-sm lg:flex-row absolute inset-x-0 bottom-[10%]'>
                 <button>Custom Order</button>
                 <button> Existing Inventory</button>
             </div>
