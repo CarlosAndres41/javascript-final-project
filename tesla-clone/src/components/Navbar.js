@@ -56,8 +56,11 @@ const Navbar = () => {
                 </button>
             </div>
             <div className='bg-white absolute top-0 right-0 w-80 h-full z-10'>
-                <div>
-                    <TfiClose />
+                <div className='flex justify-end pr-8 pt-8'>
+                    <TfiClose
+                        className='rounded p-1 hover:bg-black/5'
+                        size={28}
+                    />
                 </div>
             </div>
         </div>
