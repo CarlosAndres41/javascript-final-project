@@ -14,7 +14,9 @@ const Model = () => {
                 </p>
             </div>
             <div className='flex flex-col items-center justify-center text-sm lg:flex-row absolute inset-x-0 bottom-[10%]'>
-                <button>Custom Order</button>
+                <button className='bg-[#393c41] rounded-md w-96 lg:w-64 lg:mx-4 h-10 mt-2 text-white'>
+                    Custom Order
+                </button>
                 <button> Existing Inventory</button>
             </div>
             <div>
