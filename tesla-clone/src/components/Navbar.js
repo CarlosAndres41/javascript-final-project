@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { TfiClose } from 'react-icons/tfi';
 
 const Navbar = () => {
+    const [menu, setMenu] = useState(false);
     return (
         <div className='flex justify-between items-center px-12 p-4 text-sm font-bold'>
             <div>
