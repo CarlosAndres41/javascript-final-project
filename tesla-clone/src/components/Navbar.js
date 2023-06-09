@@ -67,59 +67,67 @@ const Navbar = () => {
                     Menu
                 </button>
             </div>
-            <div className='bg-white absolute top-0 right-0 w-80 h-full z-10'>
-                <div className='flex justify-end pr-8 pt-8'>
-                    <TfiClose
-                        onClick={handleMenu}
-                        className='rounded p-1 hover:bg-black/5'
-                        size={28}
-                    />
+            {menu && (
+                <div className='bg-white absolute top-0 right-0 w-80 h-full z-10'>
+                    <div className='flex justify-end pr-8 pt-8'>
+                        <TfiClose
+                            onClick={handleMenu}
+                            className='rounded p-1 hover:bg-black/5'
+                            size={28}
+                        />
+                    </div>
+                    <ul className='pt-8 px-6'>
+                        <li className='py-3 pl-3 hover:rounded hover:bg-black/5'>
+                            <a href='https://www.tesla.com/models'>Model S</a>
+                        </li>
+                        <li className='py-3 pl-3 hover:rounded hover:bg-black/5'>
+                            <a href='https://www.tesla.com/model3'>Model 3</a>
+                        </li>
+                        <li className='py-3 pl-3 hover:rounded hover:bg-black/5'>
+                            <a href='https://www.tesla.com/modelx'>Model X</a>
+                        </li>
+                        <li className='py-3 pl-3 hover:rounded hover:bg-black/5'>
+                            <a href='https://www.tesla.com/modely'>Model Y</a>
+                        </li>
+                        <li className='py-3 pl-3 hover:rounded hover:bg-black/5'>
+                            <a href='https://www.tesla.com/solarroof'>
+                                Solar Roof
+                            </a>
+                        </li>
+                        <li className='py-3 pl-3 hover:rounded hover:bg-black/5'>
+                            <a href='https://www.tesla.com/solarpanels'>
+                                Solar Panels
+                            </a>
+                        </li>
+                        <li className='py-3 pl-3 hover:rounded hover:bg-black/5'>
+                            <a href='https://www.tesla.com/powerwall'>
+                                Powerwall
+                            </a>
+                        </li>
+                        <li className='py-3 pl-3 hover:rounded hover:bg-black/5'>
+                            <a href='https://www.tesla.com/inventory/new/m3'>
+                                Existing Inventory
+                            </a>
+                        </li>
+                        <li className='py-3 pl-3 hover:rounded hover:bg-black/5'>
+                            <a href='https://www.tesla.com/inventory/used/m3'>
+                                Used Inventory
+                            </a>
+                        </li>
+                        <li className='py-3 pl-3 hover:rounded hover:bg-black/5'>
+                            <a href='https://www.tesla.com/tradein'>Trade In</a>
+                        </li>
+                        <li className='py-3 pl-3 hover:rounded hover:bg-black/5'>
+                            <a href='https://shop.tesla.com/'>Shop</a>
+                        </li>
+                        <li className='py-3 pl-3 hover:rounded hover:bg-black/5'>
+                            <a href='https://www.tesla.com/teslaaccount'>
+                                Account
+                            </a>
+                        </li>
+                    </ul>
                 </div>
-                <ul className='pt-8 px-6'>
-                    <li className='py-3 pl-3 hover:rounded hover:bg-black/5'>
-                        <a href='https://www.tesla.com/models'>Model S</a>
-                    </li>
-                    <li className='py-3 pl-3 hover:rounded hover:bg-black/5'>
-                        <a href='https://www.tesla.com/model3'>Model 3</a>
-                    </li>
-                    <li className='py-3 pl-3 hover:rounded hover:bg-black/5'>
-                        <a href='https://www.tesla.com/modelx'>Model X</a>
-                    </li>
-                    <li className='py-3 pl-3 hover:rounded hover:bg-black/5'>
-                        <a href='https://www.tesla.com/modely'>Model Y</a>
-                    </li>
-                    <li className='py-3 pl-3 hover:rounded hover:bg-black/5'>
-                        <a href='https://www.tesla.com/solarroof'>Solar Roof</a>
-                    </li>
-                    <li className='py-3 pl-3 hover:rounded hover:bg-black/5'>
-                        <a href='https://www.tesla.com/solarpanels'>
-                            Solar Panels
-                        </a>
-                    </li>
-                    <li className='py-3 pl-3 hover:rounded hover:bg-black/5'>
-                        <a href='https://www.tesla.com/powerwall'>Powerwall</a>
-                    </li>
-                    <li className='py-3 pl-3 hover:rounded hover:bg-black/5'>
-                        <a href='https://www.tesla.com/inventory/new/m3'>
-                            Existing Inventory
-                        </a>
-                    </li>
-                    <li className='py-3 pl-3 hover:rounded hover:bg-black/5'>
-                        <a href='https://www.tesla.com/inventory/used/m3'>
-                            Used Inventory
-                        </a>
-                    </li>
-                    <li className='py-3 pl-3 hover:rounded hover:bg-black/5'>
-                        <a href='https://www.tesla.com/tradein'>Trade In</a>
-                    </li>
-                    <li className='py-3 pl-3 hover:rounded hover:bg-black/5'>
-                        <a href='https://shop.tesla.com/'>Shop</a>
-                    </li>
-                    <li className='py-3 pl-3 hover:rounded hover:bg-black/5'>
-                        <a href='https://www.tesla.com/teslaaccount'>Account</a>
-                    </li>
-                </ul>
-            </div>
+            )}
         </div>
     );
 };
