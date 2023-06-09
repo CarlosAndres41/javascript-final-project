@@ -3,6 +3,11 @@ import { TfiClose } from 'react-icons/tfi';
 
 const Navbar = () => {
     const [menu, setMenu] = useState(false);
+
+    const handleMenu = () => {
+        setMenu(!menu);
+    };
+
     return (
         <div className='flex justify-between items-center px-12 p-4 text-sm font-bold'>
             <div>
