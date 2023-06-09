@@ -1,4 +1,5 @@
 import React from 'react';
+import { FiChevronDown } from 'react-icons-fi';
 
 const Model = () => {
     return (
@@ -11,7 +12,9 @@ const Model = () => {
                 <button>Custom Order</button>
                 <button> Existing Inventory</button>
             </div>
-            <div></div>
+            <div>
+                <FiChevronDown />
+            </div>
         </div>
     );
 };
