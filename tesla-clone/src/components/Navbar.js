@@ -51,19 +51,26 @@ const Navbar = () => {
                     <li className='py-1 px-3 hover:rounded hover:bg-black/5'>
                         <a href='https://www.tesla.com/teslaaccount'>Account</a>
                     </li>
-                    <li className='py-1 px-3 hover:rounded hover:bg-black/5'>
+                    <li
+                        onClick={handleMenu}
+                        className='py-1 px-3 hover:rounded hover:bg-black/5'
+                    >
                         Menu
                     </li>
                 </ul>
             </div>
             <div className='lg:hidden'>
-                <button className='inline-flex items-center py-2 px-4 text-sm font-medium bg-black/5 rounded-md shadow-sm hover:bg-black/10'>
+                <button
+                    onClick={handleMenu}
+                    className='inline-flex items-center py-2 px-4 text-sm font-medium bg-black/5 rounded-md shadow-sm hover:bg-black/10'
+                >
                     Menu
                 </button>
             </div>
             <div className='bg-white absolute top-0 right-0 w-80 h-full z-10'>
                 <div className='flex justify-end pr-8 pt-8'>
                     <TfiClose
+                        onClick={handleMenu}
                         className='rounded p-1 hover:bg-black/5'
                         size={28}
                     />
