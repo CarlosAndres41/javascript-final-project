@@ -62,6 +62,20 @@ const Navbar = () => {
                         size={28}
                     />
                 </div>
+                <ul className='pt-8 px-6'>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
             </div>
         </div>
     );
