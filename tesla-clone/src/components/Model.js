@@ -6,7 +6,12 @@ const Model = () => {
         <div>
             <div className='absolute inset-x-0 top-[15%] text-center'>
                 <h1 className='text-4xl font-bold'>Model 3</h1>
-                <p>Order Online for Touchless Delivery</p>
+                <p className='p-2 text-sm'>
+                    Order Online for{' '}
+                    <span className='underline underline-offset-4'>
+                        Touchless Delivery
+                    </span>
+                </p>
             </div>
             <div>
                 <button>Custom Order</button>
