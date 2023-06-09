@@ -8,9 +8,11 @@ const Model = () => {
                 <h1 className='text-4xl font-bold'>Model 3</h1>
                 <p className='p-2 text-sm'>
                     Order Online for{' '}
-                    <span className='underline underline-offset-4'>
-                        Touchless Delivery
-                    </span>
+                    <a href='https://www.tesla.com/inventory/new/m3'>
+                        <span className='underline underline-offset-4'>
+                            Touchless Delivery
+                        </span>
+                    </a>
                 </p>
             </div>
             <div className='flex flex-col items-center justify-center text-sm lg:flex-row absolute inset-x-0 bottom-[10%]'>
